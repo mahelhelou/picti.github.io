@@ -1,0 +1,68 @@
+/*
+============================================
+					Tablet Screens
+============================================
+*/
+
+@media only screen and (max-width: 768px) {
+	#navbar-brand {
+		height: 32px;
+	}
+
+	.hero .content h1 {
+		font-size: 52px;
+	}
+
+	.hero .content h2 {
+		font-size: 33px;
+	}
+
+	.hero .content button {
+		font-size: 20px;
+		width: 150px;
+		height: 56px;
+	}
+
+	.advantages .advantage-icon i {
+		font-size: 32px;
+	}
+	
+	.freelancers #find-freelancer {
+		padding: 15px 10px;
+	}
+	
+	.freelancers #find-freelancer > a {
+		font-size: 18px;
+	}
+	
+	.support button a {
+		font-size: 18px;
+	}
+}
+
+
+/*
+@media (min-width: 480px) and (max-width: 768px) {
+	#navbar-brand {
+		height: 30px;
+	}
+
+	.hero .content h1 {
+		font-size: 52px;
+	}
+
+	.hero .content h2 {
+		font-size: 33px;
+	}
+
+	.hero .content button {
+		font-size: 18px;
+		width: 150px;
+		height: 56px;
+	}
+
+	.advantages .advantage-icon i {
+		font-size: 44px;
+	}
+}
+*/

@@ -1,0 +1,367 @@
+/*
+=====================================================
+			Global
+=====================================================
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.section-padding {
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.lightblue-bg {
+	background: #eee;
+}
+
+/*
+=====================================================
+			Navbar
+=====================================================
+*/
+
+.navbar {
+	min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #BBB;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-header {
+	vertical-align: middle;
+}
+
+#navbar-brand {
+	height: 35px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #FFF;
+	padding-left: 25px;
+}
+
+.navbar-toggle {
+	margin-top: 18px;
+}
+
+/*
+=====================================================
+			Hero
+=====================================================
+*/
+
+.hero {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background: url('../img/hero-bg.JPG') no-repeat 50% 50%;
+	display: table;
+	background-size: cover;
+}
+
+.hero .inner {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.hero .content h1 {
+	font-size: 70px;
+	color: #f9f3f4;
+}
+
+.hero .content h2 {
+	font-size: 44px;
+	color: #f9f3f4;
+}
+
+.hero .content button {
+	width: 200px;
+	height: 75px;
+	padding: 15px 30px;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-top: 50px;
+	color: #222;
+}
+
+/*
+=====================================================
+			About
+=====================================================
+*/
+
+.about h2 {
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.about h3 {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+
+.about p.lead {
+	font-size: 20px;
+}
+
+/*
+=====================================================
+			Techlance Life Cycle
+=====================================================
+*/
+
+.life-cycle img {
+	width: 100%;
+	margin-top: 25px;
+}
+
+/*
+=====================================================
+			Advantages
+=====================================================
+*/
+
+.advantages .advantage-icon {
+	margin-top: 25px;
+}
+
+.advantages .advantage-icon i {
+	font-size: 44px;
+	margin-top: 15px;
+}
+
+.advantages .advantage-content {
+	margin-top: 25px;
+}
+
+.advantages .advantage-content h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+/*
+=====================================================
+			Freelancers
+=====================================================
+*/
+
+.freelancers h2 {
+	margin-bottom: 25px;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.freelancers p.lead {
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.freelancers .freelancer {
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.freelancers .freelancer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
+
+.freelancers .freelancer-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: none;
+	background: rgba(2, 2, 2, .7);
+	color: #fff;
+	padding: 0 15px;
+}
+
+.freelancers .freelancer:hover .freelancer-content {
+	display: block;
+}
+
+.freelancers .freelancer-content p {
+	height: 175px;
+	max-height: 175px;
+	margin-top: 25px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.freelancers .freelancer-content button {
+	margin: 10px auto;
+	padding: 10px 20px;
+}
+
+.freelancers .freelancer-content button > a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+}
+
+.freelancers #find-freelancer {
+	padding: 15px 30px;
+	margin: 25px 0;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.freelancers #find-freelancer > a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*
+=====================================================
+			Courses
+=====================================================
+*/
+
+.courses {
+	background: #000;
+	color: #fff;
+}
+
+.courses h2 {
+	text-transform: uppercase;
+}
+
+.courses p.lead {
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.courses .course-table {
+	border: 1px solid #c6c6c6;
+	border-radius: 10px;
+	padding: 10px;
+	width: 100%;
+	height: 300px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.courses .course-table p {
+	margin-top: 40px;
+	font-size: 16px;
+	height: 75px;
+	max-height: 75px;
+}
+
+.courses .course-table button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.courses .course-table button > a {
+	text-decoration: none;
+}
+
+/*
+=====================================================
+			Support
+=====================================================
+*/
+
+.support h2 {
+	text-transform: capitalize;
+}
+
+.support p.lead {
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+.support button {
+	padding: 15px 30px;
+	margin-top: 25px;
+}
+
+.support button > a {
+	font-size: 24px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*
+=====================================================
+			Footer
+=====================================================
+*/
+
+.footer {
+    color: #000;
+}
+
+.footer li,
+.footer i {
+    color: #222;
+}
+
+.footer li:hover,
+.footer .social-icon i:hover {
+    color: #000;
+}
+
+.footer .contact i {
+    margin: 10px;
+}
+
+.footer .social-icon i {
+    margin-right: 7px;
+}
+
+.footer button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.footer button > a {
+	text-decoration: none;
+}
