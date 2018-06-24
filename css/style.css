@@ -365,3 +365,40 @@ body {
 .footer button > a {
 	text-decoration: none;
 }
+
+/*
+=====================================================
+			Final Section
+=====================================================
+*/
+
+.final-section h2 {
+	margin: 30px 0;
+}
+
+.final-section p.lead {
+	padding: 0 20px;
+	height: 300px;
+	max-height: 200px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.final-section .partners {
+	background: #eee;
+	margin-bottom: 25px;
+	padding: 25px 0;
+}
+
+.final-section .mentors {
+	margin-bottom: 25px;
+	padding: 25px 0;
+	border: 2px solid #eee;
+}
+
+.final-section .employers {
+	background: #eee;
+	margin-bottom: 25px;
+	padding: 25px 0;
+}
+
